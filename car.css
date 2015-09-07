@@ -1,6 +1,9 @@
+html{
+	font-size: 11px;
+}
+
 body{
 	background: lemonchiffon;
-	font-size: 1rem;
 }
 
 *{
@@ -15,7 +18,9 @@ body{
 	width: 13rem;
 	height: 9rem;
 	top: 1rem;
+	border-radius: 1rem 1rem 0rem 0rem;
 	left: 6rem;
+
 }
 
 .end{
@@ -26,10 +31,12 @@ body{
 
 .trunk{
 	left: 13rem;
+	border-radius: 0rem 1rem 0.5rem 0rem;
 }
 
 .front{
 	left: -5rem;
+	border-radius: 1rem 0rem 0rem 0.5rem;
 }
 
 .window{
@@ -41,10 +48,12 @@ body{
 
 .backWindow{
 	left: 6.75rem;
+	border-top-right-radius: 0.5rem;
 }
 
 .driverWindow{
 	left: 0.5rem;
+	border-top-left-radius: 0.5rem;
 }
 
 .wheel{
