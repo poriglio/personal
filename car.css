@@ -1,0 +1,65 @@
+body{
+	background: lemonchiffon;
+	font-size: 1rem;
+}
+
+*{
+	position: absolute;
+}
+
+.body{
+	background: orangered;
+}
+
+.mainBody{
+	width: 13rem;
+	height: 9rem;
+	top: 1rem;
+	left: 6rem;
+}
+
+.end{
+	width: 5rem;
+	height: 5rem;
+	top: 4rem;
+}
+
+.trunk{
+	left: 13rem;
+}
+
+.front{
+	left: -5rem;
+}
+
+.window{
+	background: lightblue;
+	height: 3.5rem;
+	width: 5.75rem;
+	top: 0.5rem;
+}
+
+.backWindow{
+	left: 6.75rem;
+}
+
+.driverWindow{
+	left: 0.5rem;
+}
+
+.wheel{
+	background: silver;
+	border-radius: 50%;
+	border: 1rem solid black;
+	height: 3rem;
+	width: 3rem;
+	top: 6rem;
+}
+
+.frontWheel{
+	left: -2rem;
+}
+
+.rearWheel{
+	left: 10rem;
+}
